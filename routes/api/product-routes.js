@@ -11,15 +11,12 @@ router.get('/', async (req, res) => {
     include: [
       Category,
       {
-        model: Product,
-        through: ProductTag
-      }
+        model: Tag,
+        through: ProductTag,
+      },
     ],
-
-  }).catch((err) => {
-    res.json(err);
-  });
-  res.json(productData);
+  })
+  return res.json(productData);
 });
 
 // get one product
@@ -33,7 +30,7 @@ router.get('/:id', async (req, res) => {
     include: [
       Category,
       {
-        model: Product,
+        model: Tag,
         through: ProductTag
       }
     ],
