@@ -16,5 +16,6 @@ This application has front-end starter code for an e-commerce site. This aplicat
 
 Please see video tutorial below for more details.
 
-Repository: https://github.com/MCassandra/ECommerce 
+Repository: https://github.com/MCassandra/ECommerce   
+     
 Video tutorial: https://drive.google.com/file/d/1xAGsqnd7ya1hrhLYh_xwQIguuoeRdu-n/view?usp=sharing
